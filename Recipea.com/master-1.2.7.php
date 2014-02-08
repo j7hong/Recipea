@@ -4,7 +4,16 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Recipes | PHP project - Team PHP </title>
         <meta name="description" content="Homepage for Recipes.com - an community recipe sharing site.">
-        <link rel="stylesheet" href="css/styles-1-8.css" />  
+        <link rel="stylesheet" href="css/styles-1-8.css" />
+
+        <!--  Loading all these stylesheets seems to slow down the page. 
+                So I moved them back to each php file.
+        
+                <link rel="stylesheet" href="css/header-1.0.0.css" />
+                <link rel="stylesheet" href="css/sidebar-1.0.0.css" />
+                <link rel="stylesheet" href="css/search-1.0.0.css" />
+                <link rel="stylesheet" href="css/content-1.0.0.css" />
+                <link rel="stylesheet" href="css/footer-1.0.0.css" />-->
     </head>
     <body>
 
@@ -44,13 +53,13 @@
                 ?>
             </div> <!--/container-->
         </div> <!--/wrapper-->
-        
+
         <?php
         // <!--- - - - - - - - -  FOOTER  - - - - - - - - ---> 
 
         echo '<div class="clear"></div>';
         require_once 'footer-1.2.4.php';
         ?>
-        
+
     </body>
 </html>
