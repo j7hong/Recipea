@@ -2,14 +2,24 @@
 
 /* - - - - - - - - - SEARCH - - - - - - - - - */
 
-.search-section
-{
-    width: 100%;
-}
-
 .search-module
 {
     width: 48%;
+}
+
+.search-size-l  /* search recipes */
+{
+    width: 61%;  
+}
+
+.search-size-m  /* country food dictionary */
+{
+    width: 37%;  
+}
+
+.search-section
+{
+    width: 100%;
 }
 
 .vertical-down-gradient 

@@ -66,12 +66,12 @@ html
 
 .wrapper 
 {
-    background-color: #fffcd5;
+    /*background-color: #fffcd5;*/
 }
 
 .container  /*wraps the whole page. Text will have a dark brown colour.*/
 {
-    margin:5% 3%;
+    padding:5% 3%;
     color: #39b54a;
     font-family: ebrima-regular-font, 'Trebuchet MS', Verdana, Arial, sans-serif;
     /*border: 10px solid #bead93;*/
@@ -117,15 +117,6 @@ a:hover
 .background-colour1
 {
     background-color: #f89321;  /*orange */
-}
-
-/*==========================================================================================*/
-
-/* - - - - - - - - -  GRADIENTS - - - - - - - - - */
-
-.search-size  /* master page - search box */
-{
-    width: 320px;  
 }
 
 /*==========================================================================================*/

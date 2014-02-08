@@ -19,117 +19,125 @@ $menus = array("Menu", "recipe1", "recipe2", "recipe3");
         <![endif]-->
     </head>
     <body>     
-
-        <section class="search-module float-left margin-right-m2">
-            <h1 class="invisible">Search recipes</h1>
-
-            <div class="vertical-down-gradient search-size padding-m margin-right-m float-left">
-
-
-                <span class="uppercase heading-ml text-colour1 float-left">Search recipes!</span>
-
-                <img src="img/search/cutlery-icon.png" alt="cutlery icon" class="float-left search-field-icon1" />  
-
-                <div class="clear"></div>
-
-                <img src="img/page-wide/dotted-line-m.png" alt="dotted line" class="m-line" />
-
-                <div class="float-left">
-                    <img src="img/search/magnifying-glass-icon.png" alt="magnifying-glass-icon" class="search-field-icon2" />
-
-                    <input type="text" name="search-keyword" id="search-keyword" placeholder="keyword" class="search-field" />                   
-                </div>
-
-                <div class="float-left">
-                    <img src="img/search/magnifying-glass-plus-icon.png" alt="magnifying-glass-plus-icon" class="search-field-icon-plus"  />
-
-                    <select name="search-ingredient" id="search-ingredient" class="search-field ">
-                        <?php
-                        for ($i = 0; $i < count($ingredients); $i++) {
-                            echo "<option value='$ingredients[$i]'>$ingredients[$i]</option>";
-                        }
-                        ?>
-                    </select>
-                </div>
-
-                <div class="clear"></div>
-
-                <div class='float-left margin-top-m'>
-                    <img src='img/search/magnifying-glass-plus-icon.png' alt='magnifying-glass-plus-icon' class="search-field-icon-plus" />
-
-                    <select name='search-style' id='search-style' class='search-field'>
-                        <?php
-                        for ($i = 0; $i < count($styles); $i++) {
-                            echo "<option value='$styles[$i]'>$styles[$i]</option>";
-                        }
-                        ?>
-                    </select>
-                </div>
-
-                <input type='image' name='search-recipes' id='search-recipes' value='Submit' src="img/search/btn-search.png" alt="search button"
-                       class="float-right margin-top-m" />
-
-                <div class="clear"></div>
-
-            </div>
-<!--            <img src="img/search/search-recipes-background-colour.png" alt="search-recipes-background-colour" />-->
-
-            <div class="clear"></div>
+        <div>
             
-        </section> <!-- /search-module (search recipes)-->
+<!--            The search modules (search recipes and country food dictionary are different sizes on the public homepage and the
+            master page. On the public home page they have a size ratio of 3:2, while the ratio is 1:1 (search recipes : country food
+            dictionary). Also, the public homepage has an additional stylesheet (search-public-1.0.0.css) that the master page does
+            not use. Hopefully, the ratios will apply for each page.-->
+            
+            <section class="search-module search-size search-size-l float-left">
+                <h1 class="invisible">Search recipes</h1>
+
+                <div class="vertical-down-gradient padding-m  float-left">
 
 
-        <section class="search-module float-left red-border">
-            <h1 class="invisible">Country food dictionary</h1>
+                    <span class="uppercase heading-ml text-colour1 float-left">Search recipes!</span>
 
-            <div class="vertical-down-gradient search-size padding-m float-left">
+                    <img src="img/search/cutlery-icon.png" alt="cutlery icon" class="float-left search-field-icon1" />  
 
+                    <div class="clear"></div>
 
-                <span class="uppercase heading-ml text-colour1 float-left">Country Food Dictionary</span>
+                    <img src="img/page-wide/dotted-line-m.png" alt="dotted line" class="m-line" />
 
-                <img src="img/search/dictionary-icon.png" alt="dictionary icon" class="float-left search-field-icon1" />
+                    <div class="float-left">
+                        <img src="img/search/magnifying-glass-icon.png" alt="magnifying-glass-icon" class="search-field-icon2" />
+
+                        <input type="text" name="search-keyword" id="search-keyword" placeholder="keyword" class="search-field" />                   
+                    </div>
+
+                    <div class="float-left">
+                        <img src="img/search/magnifying-glass-plus-icon.png" alt="magnifying-glass-plus-icon" class="search-field-icon-plus"  />
+
+                        <select name="search-ingredient" id="search-ingredient" class="search-field ">
+                            <?php
+                            for ($i = 0; $i < count($ingredients); $i++) {
+                                echo "<option value='$ingredients[$i]'>$ingredients[$i]</option>";
+                            }
+                            ?>
+                        </select>
+                    </div>
+
+                    <div class="clear"></div>
+
+                    <div class='float-left margin-top-m'>
+                        <img src='img/search/magnifying-glass-plus-icon.png' alt='magnifying-glass-plus-icon' class="search-field-icon-plus" />
+
+                        <select name='search-style' id='search-style' class='search-field'>
+                            <?php
+                            for ($i = 0; $i < count($styles); $i++) {
+                                echo "<option value='$styles[$i]'>$styles[$i]</option>";
+                            }
+                            ?>
+                        </select>
+                    </div>
+
+                    <input type='image' name='search-recipes' id='search-recipes' value='Submit' src="img/search/btn-search.png" alt="search button"
+                           class="float-right margin-top-m" />
+
+                    <div class="clear"></div>
+
+                </div>
+    <!--            <img src="img/search/search-recipes-background-colour.png" alt="search-recipes-background-colour" />-->
 
                 <div class="clear"></div>
 
-                <img src="img/page-wide/dotted-line.png" alt="dotted line" class="m-line" />
+            </section> <!-- /search-module (search recipes)-->
 
-                <div class="float-left">
-                    <img src="img/search/magnifying-glass-icon.png" alt="magnifying-glass-icon" class="search-field-icon-plus" />
+            <section class="search-module search-size search-size-m float-right red-border">
+                <h1 class="invisible">Country food dictionary</h1>
 
-                    <select name="search-country" id="search-country" class='search-field'>
-                        <?php
-                        for ($i = 0; $i < count($countries); $i++) {
-                            echo "<option value='$countries[$i]'>$countries[$i]</option>";
-                        }
-                        ?>
-                    </select>                  
+                <div class="vertical-down-gradient padding-m float-left">
+
+
+                    <span class="uppercase heading-ml text-colour1 float-left">Country Food Dictionary</span>
+
+                    <img src="img/search/dictionary-icon.png" alt="dictionary icon" class="float-left search-field-icon1" />
+
+                    <div class="clear"></div>
+
+                    <img src="img/page-wide/dotted-line.png" alt="dotted line" class="m-line" />
+
+                    <div class="float-left">
+                        <img src="img/search/magnifying-glass-icon.png" alt="magnifying-glass-icon" class="search-field-icon-plus" />
+
+                        <select name="search-country" id="search-country" class='search-field'>
+                            <?php
+                            for ($i = 0; $i < count($countries); $i++) {
+                                echo "<option value='$countries[$i]'>$countries[$i]</option>";
+                            }
+                            ?>
+                        </select>                  
+                    </div>
+
+                    <div class="float-left">
+                        <img src="img/search/magnifying-glass-plus-icon.png" alt="magnifying-glass-plus-icon" class="search-field-icon-plus"  />
+
+                        <select name="search-menu" id="search-menu" class='search-field'>
+                            <?php
+                            for ($i = 0; $i < count($menus); $i++) {
+                                echo "<option value='$menus[$i]'>$menus[$i]</option>";
+                            }
+                            ?>
+                        </select>
+                    </div>
+
+                    <div class="clear"></div>
+
+                    <input type='image' name='search-recipes' id='search-recipes' value='Submit' src="img/search/btn-search.png" alt="search button"
+                           class="float-right margin-top-m" />
+
+                    <div class="clear"></div>
+
                 </div>
 
-                <div class="float-left">
-                    <img src="img/search/magnifying-glass-plus-icon.png" alt="magnifying-glass-plus-icon" class="search-field-icon-plus"  />
+            </section> <!-- /search-module (country food dictionary)-->
+            
+        </div> <!-- /search-section (both search boxes)-->
 
-                    <select name="search-menu" id="search-menu" class='search-field'>
-                <?php
-                for ($i = 0; $i < count($menus); $i++) {
-                    echo "<option value='$menus[$i]'>$menus[$i]</option>";
-                }
-                ?>
-            </select>
-                </div>
-
-                <div class="clear"></div>
-      
-                <input type='image' name='search-recipes' id='search-recipes' value='Submit' src="img/search/btn-search.png" alt="search button"
-                       class="float-right margin-top-m" />
-
-                <div class="clear"></div>
-
-            </div>
-
-        </section> <!-- /search-module (country food dictionary)-->
 
         <div class="clear"></div>
-        
+
     </body>
 </html>
 
