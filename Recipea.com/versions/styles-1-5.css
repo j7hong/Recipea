@@ -1,0 +1,566 @@
+@charset "utf-8";
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+        CSS RESET
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}	
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* - - - - - - - - - end reset - - - - - - - - - */
+
+/*==========================================================================================*/
+
+/* - - - - - - - - -  PAGE - WIDE - - - - - - - - - */
+
+html 
+{
+    width:100%;
+    height:100%;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;  
+}
+
+.wrapper 
+{
+    background-color: #fffcd5;
+}
+
+.container  /*wraps the whole page. Text will have a dark brown colour.*/
+{
+    margin:5% 3%;
+    color: #39b54a;
+    font-family: ebrima-regular-font, 'Trebuchet MS', Verdana, Arial, sans-serif;
+    /*border: 10px solid #bead93;*/
+}
+
+body {   /*The default font size is 10px, which is easy to change into em's.*/
+    font-size: 10px;
+    color: #39b54a;
+}
+
+a 
+{
+    color: #ff6600;
+
+    text-decoration: none; 
+}
+
+a:hover
+{
+    text-decoration: underline;    
+}
+
+.red-border
+{
+    border:1px solid red;
+}
+
+.text-colour1
+{
+    color: #fff; /* white */
+}
+
+.text-colour-2
+{
+    color: #fb8e0d; /* orange */  
+}
+
+.text-colour-3
+{
+    color: #39b54a; /* green */
+}
+
+.background-colour1
+{
+    background-color: #f89321;  /*orange */
+}
+
+/* - - - - - - - - -  DIVS - - - - - - - - - */
+
+.recipe-details-box-top-m
+{
+    width: 295px;
+    height: 35px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+    -border-radius: 10px;
+}
+
+.recipe-details-box-bottom-m
+{
+    width: 295px;
+    height: 35px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+    -border-radius: 10px;
+}
+
+.recipe-details
+{
+    height:425px;
+}
+
+.recipe-details-panel
+{
+    border: 1px solid  #f89321;
+    width: 295px;
+    max-height: 425px;    
+    overflow-y:scroll;
+}
+
+.recipe-details-sub-panel
+{
+    padding: 20px 25px 0;  
+}
+
+
+/* - - - - - - - - -  GRADIENTS - - - - - - - - - */
+
+.search-size  /* master page - search box */
+{
+    width: 455px;  
+}
+
+.slider-size /* master page - process slider */
+{
+    width: 940px;
+    height: 250px;
+    padding: 10px;    
+}
+
+/* - - - - - - - - - ELEMENTS - - - - - - - - - */
+
+.paragraph-m
+{
+    width: 195px;
+}
+
+/* - - - - - - - - - LISTS - - - - - - - - - */
+
+.list-bullets li
+{
+    list-style-type:disc;
+    margin-bottom: 10px;
+}
+
+/* - - - - - - - - - OTHER LAYOUT STYLES - - - - - - - - - */
+
+/*Clears the float on both left and right sides*/
+.clear 
+{
+    clear:both;
+}
+
+/*A left indent*/
+.indent1 {
+    padding-left: 20px;
+
+}
+
+/*to float left*/
+.float-left 
+{
+    float:left;
+}
+
+/*to float right*/
+.float-right
+{
+    float:right;
+}
+
+.space
+{
+    margin: 2%;    
+}
+
+.margin-right-s
+{
+    margin-right: 10px;
+}
+
+.margin-right-m
+{
+    margin-right: 20px;
+}
+
+.margin-right-m2
+{
+    margin-right: 25px;
+}
+
+.margin-top-s
+{
+    margin-top: 10px;
+}
+
+.margin-top-m
+{
+    margin-top: 20px;
+}
+
+.margin-top-m2
+{
+    margin-top: 25px;
+}
+
+.margin-bottom-none
+{
+    margin-bottom: 0;
+}
+
+.margin-bottom-s
+{
+    margin-bottom: 10px;
+}
+
+.vertical-align
+{
+    vertical-align:middle;
+}
+
+.border-box
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.padding-m
+{
+    padding: 30px;
+}
+
+/* - - - - - - - - - HEADINGS - - - - - - - - - */
+
+/*This is used to make headings not visible in the browser, but will be used for the document outline or when CSS is disabled.*/
+.invisible {
+    display:none;
+}
+
+/*For text that would have a size of 40px*/
+.heading-xl {
+    font-size:4.0em;
+}
+
+/*For text that would have a size of 24px*/
+.heading-l {
+    font-size: 2.4em;
+}
+
+.heading-ml
+{
+    font-size: 1.8em;
+}
+
+/*For text that would have a size of 18px*/
+.heading-m {
+    font-size: 1.6em;
+}
+
+/*For text that would have a size of 14px*/
+.heading-sm {
+    font-size: 1.4em;
+}
+
+.heading-s {
+    font-size: 1.2em;
+}
+
+
+
+/* - - - - - - - - - TEXT STYLES - - - - - - - - - */
+
+/*To make text bold*/
+.bold {
+    font-weight:bold;
+}
+
+.uppercase
+{
+    text-transform: uppercase;
+}
+
+/*to align text in the center*/
+.centre-align {
+    text-align:center;
+}
+
+/*to underline text*/
+.underline {
+    text-decoration:underline;
+}
+
+.line-height-m
+{
+    line-height: 1.5em;
+}
+
+.line-height-s
+{
+    line-height: 1.0em;
+}
+
+
+/* - - - - - - - - - FONTS- - - - - - - - - */
+
+/*for text in the book antiqua font (homepage > centre body - at the bottom)*/
+.font-book-antiqua {
+    font-family:'book-antiqua-regular-font';
+}
+
+/*the link buttons for library material categories (left body. eg. books, magazines...)*/
+.font-trajan-pro {
+    font-family:'trajan-pro-regular-font';
+}
+
+/*the font family for most of the text on the web site*/
+@font-face
+{
+    font-family: ebrima-regular-font;
+    src: url('../fonts/ebrima.ttf'); 
+}
+
+/*used for the link buttons in the left body (not the main navigation link buttons)*/
+@font-face
+{
+    font-family: trajan-pro-regular-font;
+    src: url('../fonts/TrajanPro-Regular.otf'); 
+}
+
+/*used for the message at the bottom of the centre body on the homepage*/
+@font-face
+{
+    font-family: book-antiqua-regular-font;
+    src: url('../fonts/ANTQUAB.TTF'); 
+}
+
+
+/* - - - - - - - - - IMAGES - - - - - - - - - */
+
+/*for any image that has a small size*/     
+.img-small
+{
+    width:40%;
+    padding: 1% 1% 5% 5%;
+    /*position:relative;
+    top:-100px;*/    
+
+}
+
+.icon1
+{
+    width: 40px;
+    text-align: center;
+    position: relative;
+    top: 9px;
+}
+
+/*--- ATTRIBUTION ---*/
+
+/*The small text for attributing an image. (If this were a real site, I would not use these kind of images, but pay for images and therefore not need to attribute them. But, since this is a student project...*/
+small a  
+{
+    color:#491313;
+    text-decoration:none;
+}
+
+/*When a link inside a small element (for attributing an image), the link will be underlined.*/
+small a:hover 
+{
+    text-decoration:underline;
+}
+
+
+
+/*==========================================================================================*/
+
+/* - - - - - - - - - PAGE HEADER - - - - - - - - - */
+
+.page-header
+{
+    margin: 20px 50px;
+    border-bottom: 5px solid #39b54a;
+    height: 100px;
+}
+
+.main-nav
+{
+    padding: 13px 10px;
+    border:1px solid red;
+}
+
+.main-nav img
+{
+    padding: 0px 30px;
+    border:1px solid red;
+}
+
+.main-nav img
+{
+    padding: 0px 30px;
+    border:1px solid red;
+}
+
+/*.main-nav li a
+{
+    display: inline;
+}*/
+
+.main-nav img:last-of-type
+{
+    margin-right: 40px;
+}
+
+nav div
+{
+    border:1px solid red;
+    width: 90px;
+}
+
+/*.header-buttons
+{
+    padding: 10px 0px;
+}*/
+
+/*============================================ */
+
+/* - - - - - - - - - SIDEBAR - - - - - - - - - */
+
+.sidebar-module
+{
+    border: 1px solid #e0a762;
+    width: 230px;
+    padding-left: 35px;
+}
+
+.sidebar-module section
+{
+    border: 1px solid #f89321;
+    height: 35px;   
+}
+
+.module-sub-panel-img
+{
+    width: 60px;
+    border: 1px solid #e0a762;
+
+
+}
+
+.module-sub-panel-text
+{
+    padding: 10px 0px;
+}
+
+/*============================================ */
+
+/* - - - - - - - - - SEARCH - - - - - - - - - */
+
+.vertical-down-gradient 
+{
+    background: yellowgreen; /* fallback colour */
+    background: linear-gradient(#b2d235, #3db649);    
+    padding: 20px;
+}
+
+
+
+.m-line
+{    
+    /*    background-image: url("/img/page-wide/dotted-line-dot.png");
+        background-repeat:repeat-x;*/
+    width: 415px;
+}
+
+.search-field
+{
+    width: 190px;
+    height: 30px;
+    padding-left: 30px;    
+}
+
+.search-field-icon1
+{
+    margin-left: 10px;
+}
+
+.search-field-icon2, .search-field-icon-plus
+{
+    position: relative;
+    left: 30px;
+    top: 3px;
+}
+
+.search-field-icon-plus
+{
+    top: 8px;
+}
+
+/*============================================ */
+
+/* - - - - - - - - - CONTENT - - - - - - - - - */
+
+.recipe-detail-section-row
+{
+    width: auto;
+    height:auto;
+}
+
+/*.recipe-detail-section-row, .recipe-detail-section-row div
+{
+    border: 1px solid  red;
+}*/
+
+
+/*============================================ */
+
+/* - - - - - - - - - PAGE FOOTER - - - - - - - - - */
+
