@@ -49,7 +49,7 @@
         // <!--- - - - - - - - -  FOOTER  - - - - - - - - ---> 
 
         echo '<div class="clear"></div>';
-        require_once 'footer-1.2.3.php';
+        require_once 'footer-1.2.4.php';
         ?>
         
     </body>
