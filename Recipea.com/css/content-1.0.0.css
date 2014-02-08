@@ -1,0 +1,103 @@
+/* 
+    Created on : 8-Feb-2014, 1:33:08 PM
+    Author     : James Hong
+*/
+
+/*============================================ */
+
+/* - - - - - - - - - CONTENT - - - - - - - - - */
+
+.main-content
+{
+    max-width: 860px;
+    min-height: 1125px;
+    border:1px solid red;
+}
+
+.dotted-line-l
+{
+    max-width: 800px;
+}
+
+.slider-size /* master page - process slider */
+{
+    width: 818px;
+    height: 205px;
+    padding: 10px;    
+}
+
+.slider-img
+{
+    max-width: 250px;
+}
+
+.slider-arrow
+{
+    position: relative;
+    top:-80px;
+}
+
+.recipe-details-box-top-m
+{
+    width: 295px;
+    height: 35px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+    -border-radius: 10px;
+}
+
+.recipe-details-box-bottom-m
+{
+    width: 295px;
+    height: 35px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+    -border-radius: 10px;
+}
+
+.recipe-details
+{
+    height:425px;
+}
+
+.recipe-details-panel
+{
+    border: 1px solid  #f89321;
+    max-width: 258px;
+    max-height: 425px;   
+    overflow-x: hidden;
+    overflow-y:scroll;
+}
+
+.recipe-details-sub-panel
+{
+    padding: 20px 25px 0;  
+}
+
+.recipe-detail-section-row
+{
+    width: auto;
+    height:auto;
+}
+
+.page-right-button
+{
+    background-color: #39b54a;
+    max-width: 140px;
+    max-height: 30px;
+    padding: 4px 10px 0;
+}
+
+.page-right-button span
+{
+    position: relative;
+    top: -5px;
+}
+
+/*.recipe-detail-section-row, .recipe-detail-section-row div
+{
+    border: 1px solid  red;
+}*/
+

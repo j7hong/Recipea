@@ -1,0 +1,66 @@
+/* 
+    Created on : 8-Feb-2014, 1:34:46 PM
+    Author     : James Hong
+*/
+
+/*============================================ */
+
+/* - - - - - - - - - PAGE FOOTER - - - - - - - - - */
+
+.page-footer
+{
+    margin: 20px 50px;
+    border-top: 5px solid #39b54a;
+    height: 100px;
+    width: 96.9%;
+    margin: 0;
+}
+
+.dotted-line-xl
+{
+    max-width: 1185px;
+}
+
+.footer-links a, .footer-text li
+{
+    color: #fff;
+    text-decoration: none; 
+    display: inline;
+}
+
+.footer-links a:hover
+{
+    text-decoration: underline; 
+
+}
+
+.footer-links li
+{
+    display: inline;
+    margin-right: 30px;
+}
+
+.footer-links a:last-child
+{
+    margin-right: 115px;
+}
+
+.footer-icons img
+{
+    margin-right: 20px;
+}
+
+/*.footer-icons img:last-of-type
+{
+    margin-right: 70px;
+}*/
+
+.footer-text li
+{
+    font-size: 1.2em;
+}
+
+.footer-text li:first-child
+{
+    margin-right: 305px;
+}

@@ -1,0 +1,53 @@
+/* 
+    Created on : 8-Feb-2014, 1:23:17 PM
+    Author     : James Hong
+*/
+
+/*==========================================================================================*/
+
+/* - - - - - - - - - PAGE HEADER - - - - - - - - - */
+
+.page-header
+{
+    padding: 15px 50px;
+    border-bottom: 5px solid #39b54a;
+    height: 100px;
+    max-width: 100%;
+}
+
+.main-nav
+{
+    padding: 13px 10px;
+    
+}
+
+.main-nav img
+{
+    padding: 0px 30px;
+}
+
+.main-nav img
+{
+    padding: 0px 30px;
+}
+
+/*.main-nav li a
+{
+    display: inline;
+}*/
+
+.main-nav img:last-of-type
+{
+    margin-right: 40px;
+}
+
+nav div
+{
+    width: 90px;
+}
+
+/*.header-buttons
+{
+    padding: 10px 0px;
+}*/
+

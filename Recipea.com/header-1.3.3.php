@@ -32,7 +32,7 @@
         <meta charset="utf-8">
         <title>Recipes | PHP project - Team PHP</title>
         <meta name="description" content="Homepage for Recipes.com - an community recipe sharing site.">
-        <link rel="stylesheet" href="css/styles-1-7.css" /> 
+        <link rel="stylesheet" href="css/header-1.0.0.css" /> 
         <!--[if lt IE 9]>
           <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
