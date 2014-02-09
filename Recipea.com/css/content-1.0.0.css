@@ -9,8 +9,10 @@
 
 .main-content
 {
-    max-width: 860px;
-    min-height: 1125px;
+    max-width: auto;
+    height: auto;
+    background-color: #fffcd5;
+    
     border:1px solid red;
 }
 
@@ -41,10 +43,10 @@
 {
     width: 295px;
     height: 35px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -o-border-radius: 10px;
-    -border-radius: 10px;
+    -webkit-border-radius: 10px 10px;
+    -moz-border-radius: 10px 10px;
+    -o-border-radius: 10px 10px;
+    -border-radius: 10px 10px;
 }
 
 .recipe-details-box-bottom-m

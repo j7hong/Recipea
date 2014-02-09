@@ -119,6 +119,50 @@ a:hover
     background-color: #f89321;  /*orange */
 }
 
+.rounded-frame-top
+{
+    width:216px;
+    height: 30px;
+    -webkit-border-radius: 10px 10px 0  0;
+    -moz-border-radius: 10px 10px 0  0;
+    -ms-border-radius: 10px 10px 0 0;
+    -o-border-radius: 10px 10px 0  0;
+    -border-radius: 10px 10px 0  0;
+}
+
+.rounded-frame-top-l
+{
+    width:457px;
+    height: 30px;
+    -webkit-border-radius: 10px 10px 0  0;
+    -moz-border-radius: 10px 10px 0  0;
+    -ms-border-radius: 10px 10px 0 0;
+    -o-border-radius: 10px 10px 0  0;
+    -border-radius: 10px 10px 0  0;
+}
+
+.rounded-frame-bottom
+{
+    width:216px;
+    height: 26px;
+    -webkit-border-radius: 0  0 10px 10px ;
+    -moz-border-radius: 0  0 10px 10px ;
+    -ms-border-radius: 0  0 10px 10px ;
+    -o-border-radius: 0  0 10px 10px ;
+    -border-radius: 0  0 10px 10px ;
+}
+
+.rounded-frame-bottom-l
+{
+    width:457px;
+    height: 26px;
+    -webkit-border-radius: 0  0 10px 10px ;
+    -moz-border-radius: 0  0 10px 10px ;
+    -ms-border-radius: 0  0 10px 10px ;
+    -o-border-radius: 0  0 10px 10px ;
+    -border-radius: 0  0 10px 10px ;
+}
+
 /*==========================================================================================*/
 
 /* - - - - - - - - - ELEMENTS - - - - - - - - - */
@@ -246,14 +290,19 @@ a:hover
     margin-bottom: 15px;
 }
 
+.margin-bottom-m
+{
+    margin-bottom: 25px;
+}
+
 .margin-bottom-xl
 {
     margin-bottom: 60px;
 }
 
-.vertical-align
+.vertical-align-frame-text
 {
-    vertical-align:middle;
+    vertical-align:-9px;
 }
 
 .border-box
@@ -291,6 +340,11 @@ a:hover
 /*For text that would have a size of 24px*/
 .heading-l {
     font-size: 2.4em;
+}
+
+.heading-ml2
+{
+    font-size: 2.0em;
 }
 
 .heading-ml
