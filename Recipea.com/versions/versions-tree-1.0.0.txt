@@ -1,0 +1,14 @@
+﻿Recipea.com\versions
+- css
+- php
+   - global
+      - header
+      - footer
+      - search
+   - master-page
+      - content
+      - master
+      - sidebar
+   - public-homepage
+      - index
+      - gallery
