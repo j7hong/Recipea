@@ -7,8 +7,8 @@ and open the template in the editor.
 <html lang="en">
     <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="keywords" content="Macaronian, Macaron, Shop, Contact" />
-    <meta name="description" content="The Macaronian Website" />
+    <meta name="keywords" content="Recipea, Admin, CMS" />
+    <meta name="description" content="The Recipea Admin CMS" />
     <title>Recipea Admin Masterpage</title>
     <link rel="stylesheet" href="css/admin_style.css" />
     <!--[if lt IE 9]>
