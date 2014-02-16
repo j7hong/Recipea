@@ -884,6 +884,8 @@ pre code {
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px;
+  
+  border: 1px solid red;
 }
 
 .col-xs-1,
@@ -4757,7 +4759,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-inverse {
-  background-color: #222222;
+background-color: #39b54a; /* green,   dark grey -#222222;*/
   border-color: #080808;
 }
 
