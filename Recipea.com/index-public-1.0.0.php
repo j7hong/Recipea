@@ -41,7 +41,7 @@
                 echo '<div class="main-content">';
                 // <!--- - - - - - - - -  SEARCH - - - - - - - - ---> 
 
-                echo '<div class="main-content red-border">';
+                echo '<div class="main-content">';
                 require_once 'search-1.4.3.php';
                 echo '</div>';
 
