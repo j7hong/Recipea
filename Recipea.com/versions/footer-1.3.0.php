@@ -1,32 +1,43 @@
-<link href="css/bootstrap.min.css" rel="stylesheet">
-<link href="css/styles-1-8.css" rel="stylesheet" />
-<link href="css/footer-1.0.0.css" rel="stylesheet" />
-
-<!--- - - - - - - - -  PAGE RIGHT BUTTON - - - - - - - - ---> 
-
-<section>
-    <h1 class="invisible">Page Right Button</h1>
-
-    <a href="#" class="uppercase text-colour1">
-        <div class="page-right-button float-right">                
-
-            Page right
-            <img src="img/footer/page-right-icon.png" alt="page-right-icon" />                         
-        </div> <!--/page right button-->
-    </a>  
-</section>
-
-<div class="clear"></div>
-
-<!--- - - - - - - - -  FOOTER  - - - - - - - - ---> 
-
-<footer class="vertical-down-gradient page-footer">
-    <div class="row">
 
 
-        <!--- - - - - - - - -  LINKS - - - - - - - - ---> 
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Recipes | PHP project - Team PHP</title>
+        <meta name="description" content="Homepage for Recipes.com - an community recipe sharing site.">
+        <link rel="stylesheet" href="css/footer-1.0.0.css" /> 
 
-        <div class="col-md-8 col-sm-12 col-xs-12">
+        <!--[if lt IE 9]>
+          <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+
+<!--        <img src="img/footer/footer-background-colour.png" alt="footer-background-colour" />-->
+
+        <!--- - - - - - - - -  PAGE RIGHT BUTTON - - - - - - - - ---> 
+
+        <section>
+            <h1 class="invisible">Page Right Button</h1>
+
+            <a href="#" class="uppercase text-colour1">
+                <div class="page-right-button float-right">                
+
+                    Page right
+                    <img src="img/footer/page-right-icon.png" alt="page-right-icon" />                         
+                </div> <!--/page right button-->
+            </a>  
+        </section>
+
+        <div class="clear"></div>
+
+        <!--- - - - - - - - -  FOOTER  - - - - - - - - ---> 
+
+        <footer class="vertical-down-gradient page-footer">
+
+            <!--- - - - - - - - -  LINKS - - - - - - - - ---> 
+
             <section class="float-left  margin-top-s">
                 <h1 class="invisible">Navigation</h1>
 
@@ -41,11 +52,9 @@
                     <a href="#"><li>Careers</li></a>
                 </ul>
             </section>
-        </div>
 
-        <!--- - - - - - - - -  ICONS - - - - - - - - ---> 
+            <!--- - - - - - - - -  ICONS - - - - - - - - ---> 
 
-        <div class="col-md-4 col-sm-12 col-xs-12">
             <section class="footer-icons float-right">
                 <h1 class="invisible">Footer icons</h1>
                 <a href="#"><img src="img/footer/rss-icon.png" alt="rss-icon" /></a>
@@ -55,29 +64,18 @@
                 <a href="#"><img src="img/footer/twitter-icon.png" alt="twitter-icon" /></a>
                 <a href="#"><img src="img/footer/youtube-icon.png" alt="youtube-icon" class="margin-right-xl" /></a>
             </section>
-        </div>
 
-        <div class="clear"></div>
-    </div> <!--/row1-->
+            <div class="clear"></div>
 
-
-
-    <div class="row">
-        <div class="col-md-12 col-sm-12">
             <div> <!--style="background-color: #94cb3a; border: 1px dashed red; padding: 0.5%;"-->
                 <img src="img/footer/footer-dotted-line.png" al="footer-dotted-line-long" class="dotted-line-xl margin-top-m margin-bottom-s2" />
             </div>
 
             <ul class="footer-text indent-s2">
-                <li class="col-sm-1 col-xs-12">www.recipea.com</li>
-                <li class="col-sm-4 col-sm-offset-3 col-xs-12">&copy; Copyright 2014. Recipea. All rights reserved.</li>               
+                <li>www.recipea.com</li>
+                <li>&copy; Copyright 2014. Recipea. All rights reserved.</li>               
             </ul>
-        </div>
-    </div> <!--/row2-->
+        </footer> <!--/page-footer-->
 
-
-
-</footer> <!--/page-footer-->
-
-</body>
+    </body>
 </html>

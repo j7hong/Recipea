@@ -474,3 +474,13 @@ small a:hover
     text-decoration:underline;
 }
 
+/*==========================================================================================*/
+
+/*--- GRADIENTS ---*/
+
+.vertical-down-gradient 
+{
+    background: yellowgreen; /* fallback colour */
+    background: linear-gradient(#b2d235, #3db649);    
+
+}

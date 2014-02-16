@@ -9,11 +9,11 @@
 
 .page-footer
 {
-    margin: 20px 50px;
+/*    margin: 20px 50px;*/
     border-top: 5px solid #39b54a;
-    height: 100px;
+/*    height: 100px;
     width: 96.9%;
-    margin: 0;
+    margin: 0;*/
 }
 
 .dotted-line-xl
@@ -60,7 +60,7 @@
     font-size: 1.2em;
 }
 
-.footer-text li:first-child
+/*.footer-text li:first-child
 {
     margin-right: 305px;
-}
+}*/
